@@ -17,7 +17,7 @@
     </div>
 
     <div id="container">
-      <section id="home">
+      <section id="home" active>
         <div class="homeText">
           <p style="color: darkviolet">Hey there!</p>
           <h1>I'm <span style="color: darkviolet">JHANVI LAMBA</span>,</h1>
@@ -84,7 +84,7 @@
           </div>
           <div class="techSkill">
             <h3>Technical Skills</h3>
-            <p>Python, C, C++, Java, <br />Web Devlopment, Git, Github</p>
+            <p>Python, C, C++, Java, Web Devlopment, Git, Github</p>
           </div>
         </div>
       </section>
@@ -95,16 +95,37 @@
         <h1>Want to get in touch?</h1>
         <h4>I would love to hear from you!</h4>
         <form>
-          <label for="fname">Name:</label><br />
+          <label for="fname">Name:</label>
           <input type="text" id="fname" name="fname" placeholder="Full name" />
-          <br />
-          <label for="email">Email:</label><br />
+
+          <label for="email">Email:</label>
           <input type="text" id="email" name="email" placeholder="Your email" />
-          <br />
-          <label for="msg">Message:</label><br />
-          <!-- <textarea style="max-width: 50px" id="msg" name="msg" /> -->
-          <br />
+
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="msg" rows="10">Your message</textarea>
+          <button onclick="alert('ok')">Submit</button>
         </form>
+        <div class="rule"></div>
+        <div class="social">
+          <a href="https://instagram.com/instagram">
+            <img
+              src="http://assets.stickpng.com/images/5ecec78673e4440004f09e77.png"
+              alt="instagram icon"
+            />
+          </a>
+          <a href="https://linkedin.com">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/61/61109.png"
+              alt="linkedin icon"
+            />
+          </a>
+          <a href="https://github.com">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              alt="github icon"
+            />
+          </a>
+        </div>
       </section>
     </div>
 
